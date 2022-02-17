@@ -23,12 +23,12 @@
 body {
     font-family: 'Noto Sans SC', sans-serif;
 }
-
+     
 /* 
     All text in paragraphs should be blue.
 */
 p {
-    color:blue;
+    color:rgb(252, 250, 246);
 }
 
 /* 
@@ -126,18 +126,10 @@ a:hover {
 /*  
     Style individual list items.
 */
-.navbar li {
-    width: 150 px;
-    background-color: #000;
-    border: 1px solid red;
     /* 
         Show the navbar elements next to each other instead of on top of each 
         other. 
     */
-    padding: 10px;
-    display: inline-block;
-    line-height: 40px;
-}
 
 /* 
     Style links in navbar.
@@ -165,4 +157,8 @@ iframe {
     width:100%;
     height:100%;
     border: dotted;
+    
 }
+
+
+
