@@ -1,6 +1,10 @@
 /* 
+    Mayana Puri
+    mpuri@wesleyan.edu
+    Homework 1 : Landing Page 
     COMP 333: Software Engineering
-    Sebastian Zimmeck (szimmeck@wesleyan.edu)
+    Prof. Sebastian Zimmeck 
+    Due : Friday, 18th of February, 2022
 */
 
 /* 
@@ -17,148 +21,46 @@
 */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap');
 
-/* 
-    The imported font should be applied to all body text.
-*/
-body {
-    font-family: 'Noto Sans SC', sans-serif;
-}
-     
-/* 
-    All text in paragraphs should be blue.
-*/
-p {
-    color:rgb(252, 250, 246);
-}
 
-/* 
-    The background of all divs should be pink.
- */
-div {
-    background-color: hotpink;
-}
 
-/* 
-    There is one white-div in our html_sample.html, which should have white 
-    font. 
-    
-    You can refer in Style Sheets to ids using #.
-*/
-#white-div {
-    color: white;
-}
+body {background-color: rgb(12, 12, 12);}
 
-/* 
-    You can refer in Style Sheets to classes using the dot .
-*/
-.padding-color-class {
-    /* 
-        Instead of color names you can also use hexdecimal values. The lower the
-        number, the darker.
-    */
-    background-color: #000000;
-    /* 
-        You can also give colors in RGB values (0 to 255). If you are expecting 
-        older browsers using your site, refrain from using RGB formatting.
-    */
-    color: rgb(100, 168, 200);
-}
+h1 {
+    font-size: 50px;
+  }
+  
+  h2 {
+    font-size: 40px;
+  }
+  
+  p {
+    font-size: 20px;
+  }
 
-.background-image-class {
-    background-image: url(https://placeimg.com/400/200/any); background-repeat: no-repeat;
-    color: white;
-}
+a:link {
+    color: rgb(240, 227, 227);
+  }
+ 
+  a:visited {
+    color: rgb(242, 248, 242);
+  }
+  
 
-.css-box-model-class {
-    /* 
-        Demonstrates the CSS Box Model
-    */
-    border-width: 2px;
-    /* 
-        In order to see the border, you will need a border style.
-     */
-    border-style: solid;
-    /* 
-        You can add a margin to all four borders. If there is only one value, 
-        all borders are affected You can specify in clockwise order: 
-        top, right, bottom, left.
-    */
-    margin: 10px 5px 15px 25px;
-    /* 
-        While margins are at the outside of the border, paddings are at the 
-        inside. You can specify a single value for all four margins, but you 
-        could also specify the padding individually the as for the margins.
-    */
-    padding: 50px;
-}
+  a:hover {
+    color: hotpink;
+  }
+  
+  a:active {
+    color: rgb(158, 158, 218);
+  }
 
-/* 
-    Links can be styled with CSS as well. There are four states: 
-    link (original state), visited, hover, active (on click).
-    For example, on hover, change the link color to green. Also, hover can be 
-    applied to divs.
-*/
-a:hover {
-    color:green;
-}
 
-/* 
-    For your custom navbar, you can specify the unorderd list style.
-*/
-.navbar ul {
-    /* 
-        Remove bullet points.
-    */
-    list-style: none;
-    width: 500px;
-    margin: 0 auto;
-    /* 
-        No padding.
-    */
-    padding: 0;
-    /* 
-        For navbars use background color that stands out.
-    */
-    background-color: black;
-    text-align: center;
-}
 
-/*  
-    Style individual list items.
-*/
-    /* 
-        Show the navbar elements next to each other instead of on top of each 
-        other. 
-    */
 
-/* 
-    Style links in navbar.
-*/
-.navbar a {
-    color:#fff;
-    text-decoration: none;
-}
 
-table, td {
-    border: 1px solid gray;
-}
 
-input {
-    /* 
-        Show different input on top of each other instead of next to each other.
-    */
-    display: block;
-}
 
-/* 
-    Style iframes.
-*/
-iframe {
-    width:100%;
-    height:100%;
-    border: dotted;
-    
-}
+
 
 
 
